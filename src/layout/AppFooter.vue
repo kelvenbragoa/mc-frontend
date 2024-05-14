@@ -12,7 +12,7 @@ const logoUrl = computed(() => {
 <template>
     <div class="layout-footer">
         <img src="/demo/sys/logo.jpg" alt="Logo" height="30" class="mr-2" />
-        <span class="font-medium ml-2">CdM Device Manager</span>
+        <span class="font-medium ml-2">MicroCredito</span>
     </div>
 </template>
 <style lang="scss" scoped></style>

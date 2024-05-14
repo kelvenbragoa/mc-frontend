@@ -247,17 +247,17 @@ watch(
             <div class="card mb-0">
                 <div class="flex justify-content-between mb-3">
                     <div>
-                        <span class="block text-500 font-medium mb-3">Dispositivos</span>
-                        <div class="text-900 font-medium text-xl">{{ retriviedData.devices }}</div>
+                        <span class="block text-500 font-medium mb-3">Usuarios</span>
+                        <div class="text-900 font-medium text-xl">{{ retriviedData.users }}</div>
                     </div>
                     <div class="flex align-items-center justify-content-center bg-blue-100 border-round" style="width: 2.5rem; height: 2.5rem">
                         <i class="pi pi-tablet text-blue-500 text-xl"></i>
                     </div>
                 </div>
-                <router-link to="/devices"><i class="pi pi-eye text-blue-500 text-xl"></i></router-link>
+                <router-link to="/users"><i class="pi pi-eye text-blue-500 text-xl"></i></router-link>
             </div>
         </div>
-        <div class="col-12 lg:col-6 xl:col-3">
+        <!-- <div class="col-12 lg:col-6 xl:col-3">
             <div class="card mb-0">
                 <div class="flex justify-content-between mb-3">
                     <div>
@@ -268,7 +268,7 @@ watch(
                         <i class="pi pi-building text-blue-500 text-xl"></i>
                     </div>
                 </div>
-                <router-link to="/companies"><i class="pi pi-eye text-blue-500 text-xl"></i></router-link>
+                <router-link to="/users"><i class="pi pi-eye text-blue-500 text-xl"></i></router-link>
             </div>
         </div>
         <div class="col-12 lg:col-6 xl:col-3">
@@ -282,7 +282,7 @@ watch(
                         <i class="pi pi-users text-blue-500 text-xl"></i>
                     </div>
                 </div>
-                <router-link to="/employees"><i class="pi pi-eye text-blue-500 text-xl"></i></router-link>
+                <router-link to="/users"><i class="pi pi-eye text-blue-500 text-xl"></i></router-link>
             </div>
         </div>
         <div class="col-12 lg:col-6 xl:col-3">
@@ -296,7 +296,7 @@ watch(
                         <i class="pi pi-chart-bar text-blue-500 text-xl"></i>
                     </div>
                 </div>
-                <router-link to="/deliveries"><i class="pi pi-eye text-blue-500 text-xl"></i></router-link>
+                <router-link to="/users"><i class="pi pi-eye text-blue-500 text-xl"></i></router-link>
             </div>
         </div>
 
@@ -311,7 +311,7 @@ watch(
                         <i class="pi pi-tablet text-green-500 text-xl"></i>
                     </div>
                 </div>
-                <router-link to="/devices"><i class="pi pi-eye text-blue-500 text-xl"></i></router-link>
+                <router-link to="/users"><i class="pi pi-eye text-blue-500 text-xl"></i></router-link>
             </div>
         </div>
 
@@ -326,7 +326,7 @@ watch(
                         <i class="pi pi-tablet text-red-500 text-xl"></i>
                     </div>
                 </div>
-                <router-link to="/devices"><i class="pi pi-eye text-blue-500 text-xl"></i></router-link>
+                <router-link to="/users"><i class="pi pi-eye text-blue-500 text-xl"></i></router-link>
             </div>
         </div>
         <div class="col-12 lg:col-6 xl:col-3">
@@ -340,7 +340,7 @@ watch(
                         <i class="pi pi-tablet text-red-500 text-xl"></i>
                     </div>
                 </div>
-                <router-link to="/devices"><i class="pi pi-eye text-blue-500 text-xl"></i></router-link>
+                <router-link to="/users"><i class="pi pi-eye text-blue-500 text-xl"></i></router-link>
             </div>
         </div>
         <div class="col-12 lg:col-6 xl:col-3">
@@ -354,11 +354,11 @@ watch(
                         <i class="pi pi-tablet text-green-500 text-xl"></i>
                     </div>
                 </div>
-                <router-link to="/devices"><i class="pi pi-eye text-blue-500 text-xl"></i></router-link>
+                <router-link to="/users"><i class="pi pi-eye text-blue-500 text-xl"></i></router-link>
             </div>
-        </div>
+        </div> -->
 
-        
+<!--         
 
         <div class="col-12 xl:col-6">
             <div class="card">
@@ -410,10 +410,10 @@ watch(
                 <div class="flex align-items-center justify-content-between mb-4">
                     <h5>Atividades/Transações Recentes</h5>
                     <router-link to="/transactions"><small>Ver todas transações</small></router-link>
-                    <!-- <div>
+                    <div>
                         <Button icon="pi pi-ellipsis-v" class="p-button-text p-button-plain p-button-rounded" @click="$refs.menu1.toggle($event)"></Button>
                         <Menu ref="menu1" :popup="true" :model="items"></Menu>
-                    </div> -->
+                    </div> 
                 </div>
 
                 <ul class="p-0 mx-0 mt-0 mb-4 list-none">
@@ -434,7 +434,7 @@ watch(
                     </li>
                 </ul>
             </div>
-        </div>
+        </div>-->
     </div>
     <div class="text-center" v-else>
         <ProgressSpinner style="width: 50px; height: 50px" strokeWidth="8" fill="var(--surface-ground)" animationDuration=".5s" aria-label="Custom ProgressSpinner" />

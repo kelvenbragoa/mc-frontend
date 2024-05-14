@@ -227,8 +227,8 @@ onMounted(() => {
 
             <div id="home" class="py-4 px-4 lg:px-8 mx-0 my-6 lg:mx-8">
                 <div class="text-center">
-                    <h2 class="text-900 font-normal mb-2">CdM Device Manager</h2>
-                    <span class="text-600 text-2xl">Device Manager</span>
+                    <h2 class="text-900 font-normal mb-2">MicroCredito</h2>
+                    <span class="text-600 text-2xl">MicroCredito</span>
                 </div>
 <!-- 
                 <div class="grid mt-8 pb-2 md:pb-8">
@@ -252,9 +252,11 @@ onMounted(() => {
                         <div class="flex align-items-center justify-content-center bg-blue-200 align-self-center lg:align-self-start" style="width: 4.2rem; height: 4.2rem; border-radius: 10px">
                             <i class="pi pi-fw pi-desktop text-5xl text-blue-700"></i>
                         </div>
-                        <h2 class="line-height-1 text-900 text-4xl font-normal">CdM Device Manager</h2>
+                        <h2 class="line-height-1 text-900 text-4xl font-normal">MicroCredito</h2>
                         <span class="text-700 text-2xl line-height-3 mr-0 md:mr-2" style="max-width: 650px"
-                            >Sistema de gestão de entrega de dispositivos para trabalhadores, projetada para facilitar e otimizar o processo de entrega e rastreamento de dispositivos, como laptops, smartphones, tablets, radios e outros, para os funcionários de Cornelder de Moçambique.</span
+                            >
+                            "Nosso software web de gestão de microcrédito oferece uma solução abrangente e intuitiva para instituições financeiras e organizações de microfinanças gerenciarem eficientemente o processo de concessão de microcrédito. Com recursos para avaliação de risco de crédito, gestão de garantias, geração de relatórios e integração com sistemas externos, nosso software ajuda a aumentar a eficiência operacional, reduzir riscos e melhorar o acesso ao crédito para empreendedores de baixa renda.
+                            </span
                         >
                     </div>
 

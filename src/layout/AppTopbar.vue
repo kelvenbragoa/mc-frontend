@@ -102,7 +102,7 @@ onMounted(() => {
     <div class="layout-topbar">
         <router-link to="/dashboard" class="layout-topbar-logo">
             <img src="/demo/sys/logo.jpg" alt="logo" />
-            <span>CdM</span>
+            <span>MicroCredito</span>
         </router-link>
 
         <button class="p-link layout-menu-button layout-topbar-button" @click="onMenuToggle()">
